@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FruitMix</string>
+    <string name="action_settings">PARAMÈTRES</string>
+    <string name="slogan">Votre Expert de Fruits en Ligne !</string>
+    <string name="welcome">Bienvenue à FruitMix</string>
+    <string name="skip">Skip</string>
+    <string name="title_activity_order">l\'Activité d\'Ordre</string>
+    <string name="order">l\'Ordre</string>
+    <string name="what_do_you_want_to_buy">Qu\'est-ce que vous voulez acheter ?</string>
+    <string name="quantity">Quantité</string>
+    <string name="fruit_name_format">Nom du Fruit : %s</string>
+    <string name="fruit_name">Nom du Fruit:</string>
+    <string name="apple">la Pomme</string>
+    <string name="_7">7</string>
+    <string name="please_select_a_delivery_date">Sélectionnez une date de livraison, s\'il vous plaît :</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="search">Rechercher</string>
+    <string name="add_new_item">Ajouter un Item Nouveau</string>
+    <string name="quantity_format">Quantité: %d</string>
+    <string name="_quantity">Quantité:</string>
+    <string name="delivery_date_format">Date de Livraison: %s</string>
+    <string name="delivery_date">Date de Livraison:</string>
+    <string name="order_details">Détails d\'Ordre</string>
+    <string name="undo">ANNULER</string>
+    <string name="clear_all">Effacer Tout</string>
+    <string name="choose_an_item">Choisir un item</string>
+    <string name="are_you_sure">Êtes-vous sûr de vouloir effacer tous les éléments ? Ça ne peut pas être annulé.</string>
+    <string name="what_do_you_want_to_do">Qu\'est-ce que vous voulez ?</string>
+    <string name="back">Retourner</string>
+    <string name="browse">PARCOURIR</string>
+    <string name="name_format">Nom: %s</string>
+    <string name="price_format">Prix: %d</string>
+    <string name="setting_language">RÉGLAGER DES LANGUES</string>
+    <string name="quantity_entered_alert">Veuillez sélectionner la quantité que vous souhaitez acheter :</string>
+</resources>

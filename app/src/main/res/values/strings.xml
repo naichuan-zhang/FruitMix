@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FruitMix</string>
+    <string name="action_settings">Settings</string>
+    <string name="slogan">Your Online Fruit Expert!</string>
+    <string name="welcome">Welcome to FruitMix</string>
+    <string name="skip">Skip</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="order">Order</string>
+    <string name="what_do_you_want_to_buy">What do you want to buy?</string>
+    <string name="quantity">Quantity</string>
+    <string name="fruit_name_format">Fruit Name: %s</string>
+    <string name="fruit_name">Fruit Name:</string>
+    <string name="apple">Apple</string>
+    <string name="_7">7</string>
+    <string name="please_select_a_delivery_date">Please select a Delivery Date:</string>
+    <string name="reset">Reset</string>
+    <string name="search">Search</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="quantity_format">Quantity: %d</string>
+    <string name="_quantity">Quantity:</string>
+    <string name="delivery_date_format">Delivery Date: %s</string>
+    <string name="delivery_date">Delivery Date:</string>
+    <string name="order_details">Order Details</string>
+    <string name="undo">UNDO</string>
+    <string name="clear_all">Clear All</string>
+    <string name="choose_an_item">Choose an item</string>
+    <string name="are_you_sure">Are you sure you want to clear all the items?  This cannot be undone.</string>
+    <string name="what_do_you_want_to_do">What do you want to do?</string>
+    <string name="back">Back</string>
+    <string name="browse">BROWSE</string>
+    <string name="name_format">Name: %s</string>
+    <string name="price_format">Price: %d</string>
+    <string name="setting_language">SETTING LANGUAGE</string>
+    <string name="quantity_entered_alert">Please select the quantity you want to buy:</string>
+    <string name="alert">Are you sure to order?</string>
+</resources>

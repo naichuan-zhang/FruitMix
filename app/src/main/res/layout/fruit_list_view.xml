@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/fruit_list_linear_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/fruit_image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/apple" />
+        
+        <TextView
+            android:id="@+id/fruit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_format"
+            android:textSize="25sp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-100dp"/>
+
+        <TextView
+            android:id="@+id/fruit_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginLeft="120sp"
+            android:text="@string/price_format" />
+
+        <TextView
+            android:id="@+id/fruit_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginLeft="120sp"
+            android:text="@string/quantity_format" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

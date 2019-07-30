@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatalogActivity"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/catalog_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/what_do_you_want_to_do"
+        android:textSize="30sp"
+        android:textColor="@color/colorCatalog"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/search_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/catalog_text_view"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="40sp"
+        android:text="@string/search"
+        android:onClick="pressedSearch"/>
+
+    <Button
+        android:id="@+id/browse_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/catalog_text_view"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="150sp"
+        android:text="@string/browse"
+        android:onClick="pressedBrowse"/>
+
+    <Button
+        android:id="@+id/order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/catalog_text_view"
+        android:layout_marginTop="30sp"
+        android:text="@string/order"
+        android:layout_marginLeft="260sp"
+        android:onClick="pressedOrder"/>
+
+</RelativeLayout>

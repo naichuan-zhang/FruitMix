@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_details"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="30sp"/>
+
+    <TextView
+        android:id="@+id/fruit_purchase_dialog_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_format"
+        android:layout_marginTop="20sp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginStart="30sp"/>
+
+    <TextView
+        android:id="@+id/fruit_purchase_dialog_price_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_format"
+        android:layout_marginTop="20sp"
+        android:textSize="23sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginStart="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quantity_entered_alert"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginStart="25sp"/>
+
+    <NumberPicker
+        android:id="@+id/fruit_number_picker"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110sp"/>
+
+</LinearLayout>
